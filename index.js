@@ -3,7 +3,7 @@ var readlineSync = require('readline-sync');
 var score = 0;
 var userName = readlineSync.question('Whats your name? ');
 
-console.log('Welcome '+ userName+ ' to do you know Tanay!')
+console.log('Welcome '+ userName+ '! Do you know Jowel!')
 
 const play = (question, answer) =>{
 var userAnswer = readlineSync.question(question)
@@ -19,15 +19,15 @@ var userAnswer = readlineSync.question(question)
 
 var questionOne = {
   question: 'Where do I live? ',
-  answer:"Bangalore"
+  answer:"Guwahati"
 }
 var questionTwo = {
   question: 'My superhero would be? ',
-  answer:"Dhruv"
+  answer:"Ironman"
 }
 var questionThree = {
-  question: 'Where do you work? ',
-  answer:"Microsoft"
+  question: 'What is my favourite fastfood? ',
+  answer:"Momo"
 }
 
 var questions = [questionOne, questionTwo, questionThree]
