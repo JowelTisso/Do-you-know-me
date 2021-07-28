@@ -4,7 +4,7 @@
 
 ### Built with
 >* **NodeJS**
- * **Repl.it**
+>* **Repl.it**
 
 ### Dependencies
 > * **ReadlineSync**
