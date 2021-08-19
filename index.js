@@ -7,7 +7,7 @@ console.log('Welcome '+ userName+ '! Do you know Jowel!')
 
 const play = (question, answer) =>{
 var userAnswer = readlineSync.question(question)
-  if(userAnswer === answer){
+  if(userAnswer.toLowerCase() === answer.toLowerCase()){
     console.log('Right!')
     score = score + 1; 
   }else{
@@ -29,8 +29,16 @@ var questionThree = {
   question: 'What is my favourite fastfood? ',
   answer:"Momo"
 }
+var questionFour = {
+  question: 'I use which programming language? ',
+  answer:"Javascript"
+}
+var questionFive = {
+  question: 'What do I build in my laptop? ',
+  answer:"App"
+}
 
-var questions = [questionOne, questionTwo, questionThree]
+var questions = [questionOne, questionTwo, questionThree,questionFour,questionFive]
 
 
 for(var i = 0; i<questions.length;i++){
